@@ -1,0 +1,28 @@
+//Area del cuadrado
+//Autor : Sergio Bello
+//Fecha: 25-08-15
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+
+
+
+int main()
+{
+	float A;
+	float C;
+
+
+	cout<< "ingresar numero" << endl;
+	cin>> A;
+	cout<< "el area del cuadrado es" << endl;
+	C=A*A;
+	cout<< C <<endl;
+
+
+	return 0;
+}
+
