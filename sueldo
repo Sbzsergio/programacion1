@@ -1,0 +1,31 @@
+//saca el Sueldo Neto de varios trabajadores
+//autor: sergio bello zabala 
+//autor: juan sebastian suarez
+//01-09-15
+#include"stdafx.h"
+#include<iostream>
+#include"conio.h"
+
+using namespace std;
+
+void main() {
+   int a, b, c, h;
+   float sueldo;
+   float i;
+   //cuantas veces va haber la operacion
+   cout << "Ingrese el numero de empleados: " << endl;
+   cin >> a;
+   for (h=1;h<=a;h++) {
+	   //cuantas horas va a trabajar
+     cout << "Ingrese las horas trabajadas: " << endl;
+     cin >> b;
+	 //cuanto pagan la hora de trabajo
+     cout << "Ingrese el pago por hora: " << endl;
+     cin >> c;
+	 i = 0.13;
+	 //el sueldo de cada trabajador
+     sueldo = (c*b);
+     cout << "El sueldo es: " << sueldo << endl;
+   }
+   getch();
+}
