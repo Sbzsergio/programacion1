@@ -1,0 +1,36 @@
+//suma y operaciones
+//sergio bello zabala
+//1-09-15
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+int main(){
+	//se declara las variables
+    int a,b,c,e,g;
+    float f;
+	//ingresa el primer numero
+    cout <<"ingrese el primer numero"<< endl;
+    cin >> a;
+	//ingresa el segundo numero
+    cout <<"ingrese el segundo numero"<< endl;
+    cin >> b;
+	//hace la suma de los dos numeros
+    c = a+b;
+	//hace la resta de los dos numeros
+    d = a-b;
+	//hace la multiplicacion de los dos numeros
+    e = a*b;
+	//hace la division de los dos numeros
+    f = a/b;
+	//saca el residuo
+    g = a%b;
+	//muestra las respuestas 
+    cout <<"la suma; " << c << endl;
+    cout <<"la resta es; " << d << endl;
+    cout <<"la multiplicacion es; " << e << endl;
+    cout <<"la division es; " << f << endl;
+    cout <<"el residuo es; " << g << endl;
+    getch();
+return 0;
+}
