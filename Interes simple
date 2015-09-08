@@ -1,0 +1,27 @@
+// ejericio 7
+//autor: Sergio Bello
+//fecha: 08/09/15
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+
+    int main()
+{
+	int N,I;
+	float C,T;
+	cout <<"ingrese capital" << endl;
+	cin >> C,
+	cout <<"ingrese los años que trabaja" << endl;
+	cin >> N;
+	cout <<"ingrese la tasa del interes" << endl;
+	cin >> T;
+	I=C*(T/100)*N;
+	cout <<"el interes es: " << I ;
+	getch();
+
+
+	return 0;
+}
