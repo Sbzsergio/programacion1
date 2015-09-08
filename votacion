@@ -1,0 +1,23 @@
+// votacion
+//autor: Sergio Bello
+//fecha 08/09/15
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+
+ int main()
+{   int A;
+	cout <<"ingrese la edad" << endl;
+	cin >> A;
+	if(A>=18)
+		cout <<"puede votar" << endl;
+	else
+		cout<<"no puede votar" <<endl;
+	getch();
+
+	return 0;
+}
+
