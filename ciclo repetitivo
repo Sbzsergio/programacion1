@@ -1,0 +1,23 @@
+//sergio bello
+//09-15-15
+#include"stdafx.h"
+#include<iostream>;
+#include<conio.h>
+using namespace std;
+
+int main() {
+	float a;
+	float area;
+	float b;
+	float c;
+	float i;
+	cout << "cuantos triangulos quiere repetir?" << endl;
+	cin >> a;
+	for (i=1;i<=a;i++) {
+		cout << "escribir base y altura" << endl;
+		cin >> b >> c;
+		area = (b*c)/2;
+		cout << "area" << area << endl;
+	}
+	return 0;
+}
